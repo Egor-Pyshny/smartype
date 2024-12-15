@@ -1,0 +1,60 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #799CD480;
+    backdrop-filter: blur(4px);
+    z-index: 100;
+}
+
+.modal {
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: 100;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.header {
+    padding: 24px 16px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.content {
+    padding: 16px;
+    font-size: 14px;
+    min-height: 70px;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-bottom: 16px;
+    padding-inline: 16px;
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 7px 10px;
+    min-width: 60px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.secondaryBtn {
+    background-color: rgb(255, 48, 48);
+}
+
+.mainBtn {
+    background-color: rgb(0, 173, 0);
+}

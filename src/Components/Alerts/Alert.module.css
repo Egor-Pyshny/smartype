@@ -1,0 +1,40 @@
+.alert {
+    transition: opacity .7s ease;
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    padding: 10px;
+    transform: translateX(-50%);
+    top: 5px;
+}
+
+.alert.success  {
+    color: rgb(0, 146, 19);
+}
+
+.alert.error {
+    color: rgb(255, 3, 3);
+}
+
+.error {
+    background-color: rgba(255, 161, 161);
+}
+
+.success {
+    background-color: rgba(131, 255, 131, 0.75);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+.message {
+    margin-left: 15px;
+}
+.visible {
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}

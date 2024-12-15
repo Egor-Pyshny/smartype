@@ -1,0 +1,47 @@
+.card {
+    background-color: #dff0ff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 160px;
+    height: 180px;
+    cursor: pointer;
+    transition: .2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card.current {
+    border: 3px solid rgb(132, 132, 255);
+}
+
+.body {
+    background-color: #f6fbff;
+    padding-block: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.product{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.priceContainer {
+    background-color: #f6fbff;  
+    border-radius: 13px;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    height: 28px;
+}
+.coins {
+    color: gold;
+}
+
+.chosen {
+    color: rgb(12, 152, 12);
+}
+
+.price {
+    margin-left: 10px;
+}

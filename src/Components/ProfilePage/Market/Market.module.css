@@ -1,0 +1,27 @@
+.marketContainer {
+    margin-top: 20px; 
+    margin-bottom:20px;
+}
+
+.productsList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.products {
+    margin-bottom: 30px;
+}
+.products h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px){
+    .products h3 {
+        text-align: center;
+    }
+    .productsList {
+        justify-content: center;
+    }
+}
